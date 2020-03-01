@@ -1,0 +1,15 @@
+githubを使ってファイルを共有するお
+*github上ではディレクトリをリポジトリと呼ぶので、こんがらがらないように。
+
+
+
+・リポジトリのクローン(最初に打ち込む、基本的には一回限り)
+git clone https://github.com/50416028/scraping
+
+・ファイルの更新(コミットとプッシュ)
+git add ファイル名(ファイルを指定してもいいが、めんどくさい場合は「*」でおｋ
+git commit -m "コメント"
+git push origin master(これはそのままで!)
+
+・更新されたファイルの同期(プル)
+git pull origin master(これはそのままで!)
