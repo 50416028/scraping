@@ -13,3 +13,8 @@ git push origin master(これはそのままで!)
 
 ・更新されたファイルの同期(プル)
 git pull origin master(これはそのままで!)
+
+
+・最初のコミット前に打たなければならないコマンド(一回限り)
+git config --global user.email "tktkdx.62000@gmail.com"
+git config --global user.name  "50416028"
