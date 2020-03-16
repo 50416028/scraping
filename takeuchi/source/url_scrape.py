@@ -20,6 +20,6 @@ links_in = [s for s in links if 'artworks' in s]
 
 #artworks.txtにurlを一行ずつ記入
 with open(path,'wt') as f:
-	for ele in links_in:
+	for ele in links_in[::2]:
 		f.write(head+ele+'\n')
 
